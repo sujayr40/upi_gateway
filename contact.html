@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WHATSBOT SMS</title>
+    <link rel="icon" href="./image/whatsapp-logo.png" type="image/x-icon">
+    
+    <!-- boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- custom css -->
+    <link rel="stylesheet" href="./Stylesheet/contact.css">
+</head>
+<body>
+    <!-- header design -->
+    <header class="header">
+        <a href="./index.html"><img src="./image/wide logo planfinder.png" alt="logo" class="logo"></a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="./index.html">Home</a>
+            <a href="./login.html">Login</a>
+            <a class="button" href="./login.html">Signup</a>
+        </nav>
+    </header>
+    <!-- page name design -->
+    <div class="name" id="name">
+        <h2 class="heading">Contact <span>Us!</span></h2>
+    </div>
+    
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <div class="leflate">
+            <h2>100% Satisfaction Guaranteed</h2>
+            <p>At Whatsboot, we are committed to providing our customers with the highest 
+                level of satisfaction. We are confident in the quality and reliability of our services, 
+                and we stand behind them with a 100% satisfaction guarantee.</p>
+            <h3>What will be the next step?</h3>
+            <p><i class='bx bx-check'></i>We'll prepare the proposal.</p>
+            <p><i class='bx bx-check'></i>we'll discuss it together.</p>
+            <p><i class='bx bx-check'></i>let's start the discussion.</p>
+        </div>
+
+        <form action="#">
+            <div class="input-box">
+                <div class="input-field field">
+                    <input type="text" placeholder="Full Name" id="name" class="item" autocomplete="off">
+                    <div class="error-text">Full Name can't be blank</div>
+                </div>    
+                <div class="input-field field">
+                    <input type="email" placeholder="e-Mail" id="email" class="item" autocomplete="off">
+                    <div class="error-text email">e-Mail can't be blank</div>
+                </div>
+            </div>
+            <div class="input-box">
+                <div class="input-field field">
+                    <input class="mobile" type="number" placeholder="Mobile Number" id="phone" class="item" autocomplete="off" minlength="10" maxlength="10" pattern="\d{10}">
+                    <div class="error-text">Mobile Number can't be blank</div>
+                </div>
+                <div class="input-field field">
+                    <input type="text" placeholder="Address" id="subject" class="item" autocomplete="off">
+                    <div class="error-text">Address can't be blank</div>
+                </div>    
+            </div>
+            <div class="textarea-field field">
+                <textarea name="" id="messege" cols="30" rows="10" placeholder="Your Message" class="item" autocomplete="off"></textarea>
+                <div class="error-text">Message can't be blank</div>
+            </div>
+            <input type="submit" value="Send Message" class="button">
+        </form>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-time-five'></i>
+                <h3>Hours Of Operation</h3>
+                <p><b>Monday - Saturtday</b></p>
+                <p><b>09:00 A.M - 07:00 P.M</b></p>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-contact'></i>
+                <h3>Contact</h3>
+                <p><b>M: +91 7047099970</b></p>
+                <p><a href="#"><b>e-Mail: support@lapurecharge.com</b></a></p>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- typed js -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- e-Mail sender -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <!-- custom js -->
+    <script src="./Javascreept/contact.js"></script>
+
+</body>
+</html>
